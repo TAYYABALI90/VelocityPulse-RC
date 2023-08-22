@@ -1,0 +1,115 @@
+.features {
+    background-image: url(./features-img-2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    animation: slideBackground 5s infinite alternate;
+    overflow: hidden;
+}
+
+@keyframes slideBackground {
+    0% {
+        background-position: top;
+    }
+
+    100% {
+        background-position: bottom;
+    }
+}
+
+.features-content {
+    background-color: rgba(110, 115, 119, 0.1);
+    width: 100%;
+    height: 100%;
+}
+
+.features-content-header {
+    text-align: center;
+    padding: 3em;
+}
+
+.features-content-header h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.features-content-header small {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.features-content-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.features-card {
+    background-color: rgba(86, 90, 94, 0.1);
+    width: 20rem;
+    height: 30rem;
+    padding: 1.5rem;
+    border: none;
+    border-radius: .675rem;
+    outline: none;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.features-card:hover {
+    transform: translateY(-30px);
+}
+
+.features-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.features-card h1 {
+    color: #08010e;
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: text;
+}
+
+.features-card p {
+    text-align: center;
+    cursor: text;
+}
+
+.features-card p .dollar-span {
+    color: blue;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 800;
+}
+
+.features-card p .price-span {
+    color: green;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 800;
+}
+
+.features-card button {
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    background-color: #08010e;
+    color: #fff;
+    border-radius: .675rem;
+    transition: 0.5s ease;
+}
+
+.features-card button:hover {
+    background-color: blue;
+    color: #fff;
+}

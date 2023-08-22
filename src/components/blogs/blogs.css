@@ -1,0 +1,180 @@
+.blogs {
+    width: 100%;
+    height: auto;
+    background-color: rgba(86, 90, 94, 0.1);
+    overflow: hidden;
+}
+
+.blogs-content {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+
+/* .blogs-content-left-details {
+    margin-bottom: 3rem;
+} */
+
+.blogs-content-right-details {
+    margin-left: -10%;
+}
+
+.blogs-content-left-details img {
+    width: 80%;
+}
+
+.blogs-content-right-details .search-input {
+    border: none;
+    outline: none;
+}
+
+.blogs-content-right-details .input-group-text {
+    background-color: #000;
+    outline: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.blogs-content-right-details .search-icon {
+    color: #fff;
+}
+
+.break-line {
+    width: 100%;
+    border: 1px solid rgba(23, 23, 24, 0.1);
+    margin-top: 3rem;
+}
+
+.blogs-content-left-details h1 {
+    margin-top: 15px;
+    font-size: 2rem;
+}
+
+.blogs-content-left-details .month-span {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.blogs-content-left-details .day-span {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.blogs-content-left-details .year-span {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.blogs-content-left-details .vertical-bar {
+    margin-left: .600rem;
+    font-weight: 300;
+}
+
+.blogs-content-left-details .number-span {
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-left: .600rem;
+}
+
+.blogs-content-left-details .comment-span {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.blogs-content-left-details .date-span {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 35px;
+}
+
+.blogs-content-left-details .para {
+    width: 80%;
+    margin-top: 15px;
+}
+
+.blogs-content-right-details .blog-1 {
+    display: flex;
+    gap: .600rem;
+    margin-bottom: .500rem;
+}
+
+.blogs-content-right-details .blog-1 .heading {
+    font-weight: 400;
+}
+
+.blogs-content-right-details .blog-1 .number-span {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.blogs-content-right-details .blog-1 .comment-span {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+.blogs-content-right-details .blog-1 .date-span {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 35px;
+}
+
+.blogs-content-right-details .blog-1 p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.blogs-content-right-details .blog-categories .heading {
+    font-weight: 400;
+    margin-top: 3rem;
+}
+
+.blogs-content-right-details .blog-categories li {
+    list-style: circle;
+}
+
+.blogs-content-right-details .blog-categories li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    transition: .5s ease;
+}
+
+.blogs-content-right-details .blog-categories li a:hover {
+    color: blue;
+    font-weight: 600;
+}
+
+.blogs-content-right-details .blog-tags .heading {
+    font-weight: 400;
+    margin-top: 3rem;
+}
+
+.blogs-content-right-details .blog-tags .tag-1,
+.blogs-content-right-details .blog-tags .tag-2,
+.blogs-content-right-details .blog-tags .tag-3,
+.blogs-content-right-details .blog-tags .tag-4,
+.blogs-content-right-details .blog-tags .tag-5,
+.blogs-content-right-details .blog-tags .tag-6 {
+    background-color: rgba(110, 115, 119, 0.1);
+    padding: 0.5rem;
+    border-radius: .375rem;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.blogs-content-right-details .blog-tags .tag-1:hover,
+.blogs-content-right-details .blog-tags .tag-2:hover,
+.blogs-content-right-details .blog-tags .tag-3:hover,
+.blogs-content-right-details .blog-tags .tag-4:hover,
+.blogs-content-right-details .blog-tags .tag-5:hover,
+.blogs-content-right-details .blog-tags .tag-6:hover {
+    background-color: #000;
+    color: #fff;
+}
